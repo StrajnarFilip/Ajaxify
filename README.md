@@ -14,6 +14,9 @@ If you use regular JavaScript, you can download regular (CustomAjax.js) file, an
 
 Since the file is so short (it's just a wrapper function around fetch API), you could also just copy-paste the file.
 
+
+Example in node.js:
+
 ```ts
 import { AjaxJSON, AjaxXML, AjaxString } from "./AjaxNode";
 
