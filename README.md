@@ -18,7 +18,7 @@ Since the file is so short (it's just a wrapper function around fetch API), you 
 # Example use in browser:
 Simply add <script> HTML tag before your JS:
 ```html
-<script src="https://raw.githubusercontent.com/StrajnarFilip/Ajaxify/main/CustomAjax.js"></script>
+<script src="https://raw.githubusercontent.com/StrajnarFilip/Ajaxify/main/AjaxBrowser.js"></script>
 <script src="yourOwn.js"></script>
 ```
 
