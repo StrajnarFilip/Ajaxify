@@ -15,7 +15,14 @@ If you use regular JavaScript, you can download regular (CustomAjax.js) file, an
 Since the file is so short (it's just a wrapper function around fetch API), you could also just copy-paste the file.
 
 
-Example in node.js:
+# Example use in browser:
+Simply add <script> HTML tag before your JS:
+```html
+<script src="https://raw.githubusercontent.com/StrajnarFilip/Ajaxify/main/CustomAjax.js"></script>
+<script src="yourOwn.js"></script>
+```
+
+# Example use in node.js:
 
 ```ts
 import { AjaxJSON, AjaxXML, AjaxString } from "./AjaxNode";
